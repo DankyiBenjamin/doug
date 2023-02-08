@@ -1,0 +1,112 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  font-family: "Helvetica", Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  font-size: 5rem;
+  color: green;
+  /* padding-bottom: 5px; */
+
+}
+
+#title2{
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    padding-bottom:5px;
+
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+header > p {
+  text-align: center;
+  font-size: 2rem;
+  color: seagreen;
+  padding-top: 0;
+}
+
+#main {
+  text-align: center;
+}
+
+#img-div {
+  display: inline-block;
+}
+
+#image {
+  display: block;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  color: seagreen;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 5px;
+}
+div > ul {
+  font-weight: 200;
+  font-size: 20px;
+  list-style: none;
+}
+#tribute-info {
+  background-color: rgb(215, 195, 169);
+  border-radius: 4px;
+  padding: 1px;
+  margin: 10px;
+}
+
+.text-center {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.car-collection li {
+  list-style: none;
+  padding-bottom: 2px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.tribute-link {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 0;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.tribute-link {
+  margin-top: 20px;
+}
+
+.tribute-link a {
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
+  /* target="_blank"; */
+}
